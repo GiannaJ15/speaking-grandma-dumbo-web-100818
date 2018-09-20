@@ -14,8 +14,8 @@
 
 def speak_to_grandma(string)
   if string.Uppercase 
-    return "NO, NOT SINCE 1938!"
+    puts "NO, NOT SINCE 1938!"
   elsif string == "I LOVE YOU GRANDMA!"
-    return "I LOVE YOU TOO PUMPKIN!"
-  else return "HUH?! SPEAK UP, SONNY!"
+    puts "I LOVE YOU TOO PUMPKIN!"
+  else puts "HUH?! SPEAK UP, SONNY!"
   end
